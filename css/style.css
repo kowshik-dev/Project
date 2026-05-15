@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 1570px;
+    margin: 0 auto;
+}
+
+:root{
+    --primary-font: "Sofia Sans", sans-serif;
+    --secondary-font: "Open Sans", sans-serif;
+}
+
