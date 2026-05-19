@@ -27,12 +27,11 @@ li {
   margin: 0 auto;
 }
 
-.botton{
+.botton {
     color: var(--third-color);
     background-color: var(--secoondary-color);
-    padding: 14px 20px;
-    font-size: 18px;
-    font-weight: 800px;
+    padding: 20px 54px;
+    t-size: 18px;
     font-family: var(--primary-font);
     text-transform: uppercase;
     transition: 0.4s;
@@ -40,7 +39,8 @@ li {
     width: fit-content;
     align-items: center;
     justify-content: center;
-    gap: 10px; 
+    letter-spacing: -1.22px;
+    gap: 10px;
 }
 
 .botton:hover{
@@ -290,6 +290,7 @@ li {
 
 /* dropdown blog END */
 
+
 /* hero start */
 
 #hero{
@@ -302,6 +303,7 @@ li {
   height: 100vh;
   position: relative;
   z-index: 1;
+  background-attachment: fixed;
 }
 
 #hero::before{
@@ -347,3 +349,94 @@ li {
 }
 
 /* hero END */
+
+/* upcomming start */
+#upcomming_match{
+  padding: 100px 0;
+  background-image: url(./image/texture_bg.png);
+  background-color: var(--primary-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+#upcomming_match .main{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 75px;
+}
+
+#upcomming_match img{
+  width: 75px;
+
+}
+
+#upcomming_match .item.club_logo{
+  font-family: var(--primary-font);
+  background-color: var(--primary-color);
+  color: var(--third-color);
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 30.4px;
+  gap: 20px;
+  font-weight: 800;
+}
+
+#upcomming_match .items{
+  align-items: center;
+  width: fit-content;
+}
+
+#upcomming_match .items h2 {
+    font-family: var(--primary-font);
+    color: var(--third-color);
+    background-color: var(--secoondary-color);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30.4px;
+    padding: 2px 10px;
+    align-items: center;
+    text-transform: uppercase; 
+    display: inline-block;
+    letter-spacing: -1.22px;
+}
+
+#upcomming_match .lte-team-count{  
+  font-family: var(--primary-font);
+  color: var(--third-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 20px;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 38px 0;
+}
+
+#upcomming_match .items p{
+  font-family: var(--primary-font);
+  color: var(--third-color);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 30.4px;
+  margin-top: 20px;
+  align-items: center;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+#upcomming_match .items p span{
+  font-family: var(--primary-font);
+  font-size: 30px;
+  font-weight: 800px;
+  text-align: center; 
+  display: block;
+}
+
+/* upcomming end */
